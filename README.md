@@ -1,5 +1,5 @@
 # Projeto TodoList
-Este projeto é um aplicativo de TodoList simples feito com Java e Spring Boot. Ele permite que os usuários criem, editem e excluam tarefas.
+TodoList simples feito com Java e Spring Boot. Ele permite que os usuários criem, editem e excluam tarefas.
 
 [![My Skills](https://skillicons.dev/icons?i=java,spring)](https://skillicons.dev)
 
@@ -46,7 +46,6 @@ POST /tasks/ - Criar uma nova tarefa
 
 PUT /tasks/{id} - Atualizar uma tarefa
 
-DELETE /tasks/{id} - Deletar uma tarefa
 ```
 
-... em construção ...
+
