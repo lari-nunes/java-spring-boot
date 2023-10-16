@@ -10,6 +10,7 @@ TodoList simples feito com Java e Spring Boot. Ele permite que os usuários crie
 - [Tecnologias](#tecnologias)
 - [Acessar projeto](#acessar-projeto)
 - [API Endpoints](#api-endpoints)
+- [Deploy](#deploy)
   
 ## Instalação
 
@@ -40,7 +41,7 @@ O projeto está acessível no endereço http://localhost:8080/.
 A API fornece os seguintes endpoints:
 
 ```markdown
-GET /tasks - Acessar tarefas criadas
+GET /tasks/ - Acessar tarefas criadas
 
 POST /tasks/ - Criar uma nova tarefa
 
@@ -48,4 +49,14 @@ PUT /tasks/{id} - Atualizar uma tarefa
 
 ```
 
+## Deploy
+
+```markdown
+GET https://todolist-spring-boot-383h.onrender.com/tasks/ - Acessar tarefas criadas
+
+POST https://todolist-spring-boot-383h.onrender.com/tasks/ - Criar uma nova tarefa
+
+PUT https://todolist-spring-boot-383h.onrender.com/tasks/{id} - Atualizar uma tarefa
+
+```
 
